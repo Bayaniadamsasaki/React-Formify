@@ -1,0 +1,20 @@
+label {
+   font-size: 14px;;
+} 
+th, caption {
+   font-size: 14px; 
+} 
+a.card {
+   text-decoration: none;
+   color: inherit;
+}
+.login {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw; 
+}
+.form-control:disabled, .form-select:disabled, textarea:disabled {
+   background-color: #f5f5f5;
+}
